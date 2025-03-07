@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+## MEDIVAULT :
+MediVault is a Blockchain-based Electronic health Record Storage and Retrieval System.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Blockchain Technology with the help of **IPFS** Provides the Required Safety For Maintaining Record.
 
-## Available Scripts
+- Securely Store Your Sensitive Data Such As Health Record.
 
-In the project directory, you can run:
+- Only Let Your Trusted Doctors To View Your Medical Records.
 
-### `npm start`
+### <u>EASY STEPS :</u>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> ***Register Yourself :***
+Register yourself to the locker, secured by blockchain technology.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> ***Authenticate Yourself :***
+Log In with your credentials.
 
-### `npm test`
+> ***Upload your Data :***
+Create, update, or view your health record information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### <u>PROBLEMS WE FACED :</u>
 
-### `npm run build`
+- Getting problems in maintaining and organizing your medical records, before consulting your Doctor.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- People usually don't go for regular checkup due to unorganised medical record which may lead to chronic disease in future.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Missing even one prescription can lead to wrong interpretation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Medical records can be used to submit false insurance claims or to receive unauthorized medical treatment.
 
-### `npm run eject`
+- Some individuals or organizations may sell stolen medical records on the black market for profit.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### <u>OUR SERVICES :</u>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. ***Maintaining Medical Records :***
+Keep track of your medical records, enabled by blockchain technology.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. ***Connect With Doctors :***
+Share your records with our trusted medical experts, to get a prescription.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. ***Disease Prediction Model :***
+Get a precautionary alert about diseases you might suffer from, based on our ML model.
 
-## Learn More
+### <u>WORKING :</u>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![](https://github.com/Kraniket901/MediVault/blob/master/safe/public/9.png?raw=true)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![](https://github.com/Kraniket901/MediVault/blob/master/safe/public/10.png?raw=true)
 
-### Code Splitting
+![](https://github.com/Kraniket901/MediVault/blob/master/safe/public/11.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![](https://github.com/Kraniket901/MediVault/blob/master/safe/public/12.png?raw=true)
 
-### Analyzing the Bundle Size
+![](https://github.com/Kraniket901/MediVault/blob/master/safe/public/13.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![](https://github.com/Kraniket901/MediVault/blob/master/safe/public/14.png?raw=true)
 
-### Making a Progressive Web App
+![](https://github.com/Kraniket901/MediVault/blob/master/safe/public/15.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### <u>IPFS INTEGRATION :</u>
 
-### Advanced Configuration
+![](https://github.com/Kraniket901/MediVault/blob/master/safe/public/5.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![](https://github.com/Kraniket901/MediVault/blob/master/safe/public/6.png?raw=true)
 
-### Deployment
+### <u>MARKETING GOALS :</u>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> ***Offer User-Friendly Platform :***
+Develop a user-friendly platform that is easy to use and understand for both patients and doctors. Offer training and support to help users get the most out of the platform, and gather feedback to continuously improve the user experience.
 
-### `npm run build` fails to minify
+> ***Emphasize the Security Benefits :***
+The key selling point of this technology is the increased security it provides for medical records. Emphasize the importance of having a secure and encrypted platform for storing and sharing sensitive medical information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> ***Target Patients and Doctors :***
+Identify both patients and doctors as your target audience. Patients will appreciate the ability to have control over their own medical records, while doctors will appreciate the ease and efficiency of accessing these records.
+
+> ***Collaborate with Healthcare Providers :***
+Collaborate with healthcare providers to offer a complete solution for medical record management. This will help to build credibility and demonstrate the value of your technology.
+
+### <u>FUTURE ASPECTS :</u>
+
+1. Doctor Treating The Patient Can Update Their Record And Prescribe Medicines.
+
+2. User Can Directly Talk / Chat With The Doctor They Want On Our Site.
+
+3. The System Can Be Automated To Gather Data Using The Report Uploaded By The User.
+
+4. We Will Create a Multi-Platform Application For Better User Experience.
+
+5. The Prediction Model Can Be Further Trained For Better Accuracy
+
+### <u>TECH STACKS USED :</u>
+
+- IPFS
+- Ganache
+- Solidity
+- MetaMask
+- Flask
+- React
+- Tailwind CSS
+
+### <u>TEAM THE BOYS :</u>
+
+>Viraj Chandra (Frontend)
+Piyush Kumar (Backend)
+Vibhor Singh (ML)
+Aniket Kumar (Frontend)
+Anurag Deo (Frontend)
