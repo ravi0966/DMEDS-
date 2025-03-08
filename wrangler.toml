@@ -1,5 +1,5 @@
 name = "dmeds-worker"
 type = "javascript"
 account_id = "a944ec25678d99c2fcf9feee597af0a1"
-main = "index.js"
+main = "frontend/src/index.js"
 workers_dev = true
