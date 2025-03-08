@@ -6,6 +6,34 @@ import axios from "axios";
 const Doctors = () => {
     const [doctors, setDoctors] = useState([]);
 
+    // Function to add patient email to the doctor's assigned list
+    const addDoctorToPatient = (doctorEmail) => {
+        const loggedInPatientEmail = localStorage.getItem("loggedInPatientEmail");
+    
+        if (!loggedInPatientEmail) {
+            alert("No patient is logged in.");
+            return;
+        }
+    
+        // Store doctor under patient's record
+        let assignedDoctors = JSON.parse(localStorage.getItem(`assignedDoctors_${loggedInPatientEmail}`)) || [];
+        if (!assignedDoctors.includes(doctorEmail)) {
+            assignedDoctors.push(doctorEmail);
+            localStorage.setItem(`assignedDoctors_${loggedInPatientEmail}`, JSON.stringify(assignedDoctors));
+            alert("Doctor added successfully!");
+        } else {
+            alert("Doctor is already assigned.");
+        }
+    
+        // Store patient under doctor's record
+        let assignedPatients = JSON.parse(localStorage.getItem(`assignedPatients_${doctorEmail}`)) || [];
+        if (!assignedPatients.includes(loggedInPatientEmail)) {
+            assignedPatients.push(loggedInPatientEmail);
+            localStorage.setItem(`assignedPatients_${doctorEmail}`, JSON.stringify(assignedPatients));
+        }
+    };
+    
+
     useEffect(() => {
         async function getDoctors() {
             try {
@@ -70,6 +98,7 @@ const Doctors = () => {
                                     <th>Name</th>
                                     <th>Email</th>
                                     <th>Speciality</th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -78,6 +107,14 @@ const Doctors = () => {
                                         <td>{doctor.name}</td>
                                         <td>{doctor.mail}</td>
                                         <td>{doctor.speciality}</td>
+                                        <td>
+                                            <button
+                                                className="bg-green-500 text-white px-3 py-1 rounded-lg hover:bg-green-600"
+                                                onClick={() => addDoctorToPatient(doctor.mail)}
+                                            >
+                                                Add Doctor
+                                            </button>
+                                        </td>
                                     </tr>
                                 ))}
                             </tbody>
