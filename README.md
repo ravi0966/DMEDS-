@@ -95,13 +95,16 @@ Collaborate with healthcare providers to offer a complete solution for medical r
 - Ganache
 - Solidity
 - MetaMask
-- Flask
 - React
 - Tailwind CSS
 - Web3.js
 - Chainlink CCIP
 - LayerZero / Axelar
 - Polygon ID
+
+- Pinecone
+- Google genai
+- Streamlit
 
 ### <u>TEAM NPM START :</u>
 
