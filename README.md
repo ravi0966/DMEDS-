@@ -99,8 +99,6 @@ Collaborate with healthcare providers to offer a complete solution for medical r
 - Tailwind CSS
 - Web3.js
 - Chainlink CCIP
-- LayerZero / Axelar
-- Polygon ID
 
 - Pinecone
 - Google genai
